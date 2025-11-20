@@ -8,7 +8,7 @@ const AppHeader = () => {
         <div className="flex flex-col items-center gap-3">
           <img src={appIcon} alt="Chicken Gamer Icon" className="w-16 h-16 rounded-2xl shadow-lg object-contain" />
           <div>
-            <h1 className="text-2xl font-normal text-foreground">
+            <h1 className="w-16 h-16 rounded-2xl shadow-lg">
               Chicken Gamer
             </h1>
             <a href="#" className="text-primary hover:underline font-medium text-sm">
@@ -27,12 +27,7 @@ const AppHeader = () => {
             <span className="text-muted-foreground">17 ألف تقييم</span>
           </div>
           
-          <div className="flex flex-col items-center">
-            <div className="px-2 py-1 border border-border rounded text-sm font-medium mb-1">
-              3+
-            </div>
-            <span className="text-muted-foreground">مستوى 3 أعوام فما فوق</span>
-          </div>
+          
           
           <div className="flex flex-col items-center">
             <span className="text-sm font-medium mb-1">+10</span>
