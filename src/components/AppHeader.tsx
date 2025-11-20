@@ -9,7 +9,7 @@ const AppHeader = () => {
           <div className="flex items-start gap-4">
             <img alt="Chicken Gamer Icon" className="w-20 h-20 rounded-2xl shadow-sm object-cover flex-shrink-0" src="/lovable-uploads/2afe8717-7f69-4025-b34a-ade5a380cc43.jpg" />
             <div className="flex-1 pt-2">
-              <h1 className="font-normal text-foreground mb-1 text-2xl">
+              <h1 className="text-foreground mb-1 font-semibold text-xl">
                 Chicken Gamer
               </h1>
               <a href="#" className="text-primary hover:underline text-sm font-normal">
