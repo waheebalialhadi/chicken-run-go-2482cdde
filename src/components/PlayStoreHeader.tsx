@@ -1,10 +1,8 @@
 import { Search, HelpCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import googlePlayIcon from "@/assets/google-play-icon.png";
-
 const PlayStoreHeader = () => {
-  return (
-    <header className="border-b bg-background sticky top-0 z-50">
+  return <header className="border-b bg-background sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Right Section - Avatar */}
@@ -13,11 +11,9 @@ const PlayStoreHeader = () => {
           </div>
 
           {/* Center Section */}
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon">
-              <HelpCircle className="h-5 w-5" />
-            </Button>
-            <Button variant="ghost" size="icon">
+          <div className="flex items-center gap-2 ">
+            
+            <Button variant="ghost" size="icon" className="gap-20 text-sm ">
               <Search className="h-5 w-5" />
             </Button>
           </div>
@@ -31,8 +27,6 @@ const PlayStoreHeader = () => {
           </div>
         </div>
       </div>
-    </header>
-  );
+    </header>;
 };
-
 export default PlayStoreHeader;
