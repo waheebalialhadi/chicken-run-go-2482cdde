@@ -1,18 +1,12 @@
 import { Star, Share2, Bookmark, Monitor } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import appIcon from "@/assets/app-icon.png";
-
 const AppHeader = () => {
-  return (
-    <div className="container mx-auto px-4 py-6 max-w-2xl">
+  return <div className="container mx-auto px-4 py-6 max-w-2xl">
       <div className="text-center space-y-4">
         {/* App Icon and Title */}
         <div className="flex flex-col items-center gap-3">
-          <img 
-            src={appIcon} 
-            alt="Chicken Gamer Icon" 
-            className="w-16 h-16 rounded-2xl shadow-lg"
-          />
+          <img src={appIcon} alt="Chicken Gamer Icon" className="w-16 h-16 rounded-2xl shadow-lg object-contain" />
           <div>
             <h1 className="text-2xl font-normal text-foreground">
               Chicken Gamer
@@ -47,10 +41,7 @@ const AppHeader = () => {
         </div>
 
         {/* Install Button */}
-        <Button 
-          size="lg" 
-          className="w-full bg-play-green hover:bg-play-green-hover text-white rounded-lg h-12 text-base font-medium"
-        >
+        <Button size="lg" className="w-full bg-play-green hover:bg-play-green-hover text-white rounded-lg h-12 text-base font-medium">
           تثبيت
         </Button>
 
@@ -72,8 +63,6 @@ const AppHeader = () => {
           <span>يتوفّر هذا التطبيق لأجهزتك</span>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default AppHeader;
