@@ -7,9 +7,9 @@ const AppHeader = () => {
         <div className="space-y-4">
           {/* App Icon and Title */}
           <div className="flex items-start gap-4">
-            <img src={appIcon} alt="Chicken Gamer Icon" className="w-20 h-20 rounded-2xl shadow-sm object-cover flex-shrink-0" />
+            <img alt="Chicken Gamer Icon" className="w-20 h-20 rounded-2xl shadow-sm object-cover flex-shrink-0" src="/lovable-uploads/2afe8717-7f69-4025-b34a-ade5a380cc43.jpg" />
             <div className="flex-1 pt-2">
-              <h1 className="text-xl font-normal text-foreground mb-1">
+              <h1 className="font-normal text-foreground mb-1 text-2xl">
                 Chicken Gamer
               </h1>
               <a href="#" className="text-primary hover:underline text-sm font-normal">
@@ -21,7 +21,7 @@ const AppHeader = () => {
           {/* Stats Row */}
           <div className="flex items-center justify-center gap-12 text-center py-2">
             <div className="flex flex-col items-center gap-1">
-              <div className="px-2.5 py-1 border border-border rounded text-xs font-normal text-foreground bg-background">
+              <div className="px-2.5 py-1 border border-border text-xs font-normal text-foreground bg-background shadow-none rounded-none">
                 3+
               </div>
               <span className="text-muted-foreground text-[11px] leading-tight">مناسب لأعمار 3 أعوام فما فوق</span>
