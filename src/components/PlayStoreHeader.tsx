@@ -22,11 +22,20 @@ const PlayStoreHeader = () => {
           </div>
           
           {/* Left Section - Logo */}
-          <div className="flex items-center gap-2">
-            <span className="text-base text-muted-foreground">
-              google_logo Play
+          <div className="flex items-center gap-1.5">
+            <span className="text-base text-foreground">
+              Google Play
             </span>
-            <div className="text-2xl">▶</div>
+            <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none">
+              <path d="M3 20.5v-17c0-.59.34-1.11.84-1.35.14-.06.28-.09.43-.14.12-.02.24-.03.35-.03.41 0 .82.14 1.16.41l13.77 8.44c.78.48 1.02 1.49.54 2.27-.14.23-.33.42-.54.54l-13.77 8.44C5.18 22.45 4.37 22.25 3.84 21.65c-.3-.35-.48-.79-.48-1.26L3 20.5z" fill="url(#gradient)" />
+              <defs>
+                <linearGradient id="gradient" x1="3" y1="2" x2="21" y2="22">
+                  <stop offset="0%" stopColor="#00D7FF" />
+                  <stop offset="50%" stopColor="#00A3FF" />
+                  <stop offset="100%" stopColor="#0066FF" />
+                </linearGradient>
+              </defs>
+            </svg>
           </div>
         </div>
       </div>
